@@ -5,10 +5,17 @@
     justify-content: space-between;
     margin-bottom: 40px;
     box-shadow: 2px 10px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    background-color: white;
 }
 .head-mid-section{
     width: 220px;
     margin-right: 10px;
+    margin-left: 20px;
     display: flex;
     align-items: center;
 }
