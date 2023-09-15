@@ -6,3 +6,9 @@
 body{
     margin: 20px;
 }
+@media (min-width: 768px){
+    .course-grid {
+        grid-template-columns: 1fr 1fr
+        }
+}
+    
