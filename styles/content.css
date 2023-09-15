@@ -1,0 +1,60 @@
+
+.course-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+}
+.thumbnail{
+    width: 100%;
+    object-fit: contain;
+}
+.e-span{
+    font-family: 'Roboto', Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(0, 90%, 50%);
+}
+.f-span{
+    font-family: 'Roboto', Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(100, 90%, 50%);
+}
+.sc-span{
+    font-family: 'Roboto', Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(200, 90%, 50%);
+}
+.s-span{
+    font-family: 'Roboto', Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(300, 90%, 50%);
+}
+.r-span{
+    font-family: 'Roboto', Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(400, 90%, 50%);
+}
+.i-span{
+    font-family: 'Roboto', Arial;
+    font-weight: bold;
+    font-size: 20px;
+    color: hsl(170, 90%, 50%);
+}
+
+.img-title{
+    font-family: 'Roboto', Arial;
+    font-size: 20px;
+    width: 200px;
+}
+.instaicon{
+    margin-right: 5px;
+    height: 90px;
+}
+.instaicon2{
+    height: 90px;
+}

@@ -1,0 +1,34 @@
+.header{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.head-mid-section{
+    flex: 1;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.head-right-section{
+    display: flex;
+    width: 200px;
+    align-items: center;
+}
+h1{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 120px;
+    font-family: 'Roboto', Arial;
+    border: 5px solid black;
+    border-radius: 15px;
+    align-items: center;
+    margin-top: auto;
+}
+.instabut{
+    width: 90px;
+    height: 90px;
+    margin-left: 60px;
+}
