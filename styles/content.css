@@ -31,42 +31,42 @@
     font-family: 'Roboto', Arial;
     font-weight: bold;
     font-size: 20px;
-    color: hsl(0, 90%, 50%);
+    color: hsl(0, 70%, 50%);
     margin-left: 20px;
 }
 .f-span{
     font-family: 'Roboto', Arial;
     font-weight: bold;
     font-size: 20px;
-    color: hsl(100, 90%, 50%);
+    color: hsl(100, 60%, 50%);
     margin-left: 20px;
 }
 .sc-span{
     font-family: 'Roboto', Arial;
     font-weight: bold;
     font-size: 20px;
-    color: hsl(200, 90%, 50%);
+    color: hsl(200, 70%, 40%);
     margin-left: 20px;
 }
 .s-span{
     font-family: 'Roboto', Arial;
     font-weight: bold;
     font-size: 20px;
-    color: hsl(300, 90%, 50%);
+    color: hsl(300, 70%, 40%);
     margin-left: 20px;
 }
 .r-span{
     font-family: 'Roboto', Arial;
     font-weight: bold;
     font-size: 20px;
-    color: hsl(400, 90%, 50%);
+    color: hsl(400, 70%, 50%);
     margin-left: 20px;
 }
 .i-span{
     font-family: 'Roboto', Arial;
     font-weight: bold;
     font-size: 20px;
-    color: hsl(170, 90%, 50%);
+    color: hsl(170, 70%, 40%);
     margin-left: 20px;
 }
 
