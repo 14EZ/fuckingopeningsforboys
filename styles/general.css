@@ -6,9 +6,4 @@
 body{
     padding-top: 160px;
 }
-@media (max-width: 768px){
-    .course-grid {
-        grid-template-columns: 1fr 1fr
-        }
-}
     
