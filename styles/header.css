@@ -16,17 +16,18 @@
 }
 .head-mid-section{
     width: 220px;
-    margin-right: 10px;
+    margin-right: 30px;
     margin-left: 20px;
     display: flex;
     align-items: center;
 }
 .head-right-section{
     display: flex;
-    width: auto;
-    min-width: 129px;
+    width: 130px;
+    min-width: 130px;
     align-items: center;
     margin-right: 10px;
+    margin-left: 20px;
 }
 h1{
     display: inline-block;
@@ -42,26 +43,65 @@ h1{
     height: 90px;
     margin-left: 60px;
 }
-.lang-pref p{
-    display: inline-block;
-    font-family: 'Roboto', Arial;
-    font-weight: bold;
-    font-size: 25px;
-    padding: 10px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-.ru-lang{
-    display: inline-block;
+.en-lang{
+    text-decoration: none;
+    text-transform: uppercase;
     color: black;
     border: 2px solid black;
-    border-radius: 50px;
+    border-radius: 30px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.5s;
 }
-.en-lang{
-    display: inline-block;
-    color:black;
+.en-lang:hover{
+    color: white;
+    background-color: black;
+}
+.en-lang:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    width: 0;
+    height: 100%;
+    background-color: #f9f9f9;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.5s;
+}
+.en-lang:hover::before{
+    width: 150%;
+}
+.ru-lang{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
     border: 2px solid black;
-    border-radius: 50px;
+    border-radius: 30px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.5s;
+}
+.ru-lang:hover{
+    color: white;
+    background-color: black;
+}
+.ru-lang:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: -5px;
+    width: 0;
+    height: 100%;
+    background-color: #f9f9f9;
+    transform: skewX(35deg);
+    z-index: -1;
+    transition: width 0.5s;
+}
+.ru-lang:hover::before{
+    width: 150%;
 }
 .instlink{
     color: black;
