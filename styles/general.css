@@ -6,4 +6,8 @@
 body{
     padding-top: 160px;
 }
-    
+@media (min-width: 768px) {
+    .course-grid{
+      grid-template-columns: 1fr 1fr
+    }
+}
